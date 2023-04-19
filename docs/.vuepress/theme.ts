@@ -6,13 +6,13 @@ import { enNavBarConfig, frNavBarConfig } from './configs/navbar';
 
 export default hopeTheme({
   //path.resolve(__dirname, './theme'),
-  hostname: 'https://demo-inflorescences.netlify.app',
+  hostname: 'https://www.inflorescences-quinoa.fr',
   author: {
-    name: 'Jeremie Litzler',
-    url: 'https://demo-inflorescences.netlify.app',
+    name: 'Camille Vasset',
+    url: 'https://www.inflorescences-quinoa.fr',
   },
-  // repo: 'Puzzlout/demo-inflorescences-quinoa',
-  // docsRepo: 'https://github.com/Puzzlout/demo-inflorescences-quinoa',
+  // repo: 'InflorescensesQuinoa/siteweb',
+  // docsRepo: 'https://github.com/InflorescensesQuinoa/siteweb',
   // docsBranch: 'main',
   docsDir: 'docs',
   // editLinkPattern: ':repo/edit/:branch/:path',

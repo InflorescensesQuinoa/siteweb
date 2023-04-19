@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Puzzlout/demo-inflorescences-quinoa
+  repo: InflorescensesQuinoa/siteweb
   branch: main # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: 'docs/.vuepress/public/images'

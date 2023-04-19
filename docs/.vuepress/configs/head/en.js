@@ -1,9 +1,9 @@
-const websiteDomain = 'template-vuepress-next.netlify.app';
-const titleDefault = 'Demo of static Vuepress website';
+const websiteDomain = 'inflorescences-quinoa.fr';
+const titleDefault = 'Inflorescences Quinoa';
 const descriptionDefault =
-  'A template Vuepress blog using Mr Hope very feature-rich theme';
-const themeColor = '#46b282';
-const repoLink = 'https://github.com/Puzzlout/TemplateVuepress';
+  'Quinoa durable, produit en Normandie depuis 2021 par Inflorescences.';
+const themeColor = '#BD512F';
+const repoLink = 'https://github.com/InflorescensesQuinoa/siteweb';
 
 export const enHeadConfig = {
   title: titleDefault,

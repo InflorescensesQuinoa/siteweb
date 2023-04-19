@@ -1,7 +1,7 @@
 {
-    "name": "Demo of static Vuepress website",
-    "short_name": "Templ. Vuepress website",
-    "description": "A template Vuepress blog using Mr Hope very feature-rich theme",
+    "name": "Inflorescences Quinoa",
+    "short_name": "Inflorescences Q.",
+    "description": "Le site de l'entreprise Inflorescences Quinoa en Normandie.",
     "icons": [{
         "src": "/icons/android-chrome-192x192.png",
         "sizes": "192x192",
@@ -13,7 +13,7 @@
         "type": "image/png",
         "purpose": "any maskable"
     }],
-    "start_url": "https://inflorescences-quinoa.netlify.app/",
+    "start_url": "https://inflorescences-quinoa.fr/",
     "display": "fullscreen",
     "theme_color": "#46b282",
     "background_color": "#46b282"
