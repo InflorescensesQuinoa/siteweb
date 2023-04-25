@@ -1,10 +1,10 @@
 import { defineClientConfig } from "@vuepress/client";
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "D:/Git/GitHub/siteweb-inflorescences-quinoa-fr/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "D:/Git/GitHub/inflorescences-quinoa.fr/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
 
 
-import "D:/Git/GitHub/siteweb-inflorescences-quinoa-fr/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "D:/Git/GitHub/inflorescences-quinoa.fr/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 export default defineClientConfig({
   enhance: ({ app, router }) => {
