@@ -19,6 +19,6 @@ export const frNavBarConfig = navbar([
   //   text: 'Acheter en sac de 6kg',
   //   link: 'https://buy.stripe.com/test_fZe8wxcLjfM8gdW5km',
   // },
-  { text: 'Commandez', link: '/page/commande-de-quinoa/' },
+  // { text: 'Commandez', link: '/page/commande-de-quinoa/' },
   '/page/contactez-nous/',
 ]);
