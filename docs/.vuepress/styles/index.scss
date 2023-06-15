@@ -1,17 +1,4 @@
 /* TYPOGRAPHY */
-html[data-theme=dark] body,
-html[data-theme=dark] .navbar .nav-item > .nav-link,
-html[data-theme=dark] .dropdown-wrapper .dropdown-title,
-html[data-theme=dark] .navbar .nav-link,
-html[data-theme=dark] .navbar .site-name {
-  color: var(--black);
-}
-
-html[data-theme=dark] .navbar .nav-link.active {
-  color: var(--theme-color);
-}
-
-
 h1,
 .page-title h1 {
   font-size: 1.8rem;
@@ -30,8 +17,8 @@ p {
 }
 
 @media (min-width: 50em) {
- h1,
- .page-title h1 {
+  h1,
+  .page-title h1 {
     font-size: 2rem;
   }
 
@@ -45,7 +32,7 @@ p {
 
   p {
     font-size: 1rem;
-  } 
+  }
 }
 
 img {
@@ -56,91 +43,47 @@ figcaption {
   font-style: italic;
 }
 
-.article-item .title {
-  text-decoration: underline;
-  transform: scale(1.0);
-}
-
-.article-item .title:focus{
-  text-decoration: none;
-  scale: 1.05;
-}
-
-.article-item .title:hover {
-  color: var(--theme-color-dark);
-  text-decoration: none;
-  scale: 1.05;
-}
-
-.home-page .hero-info {
-  margin-left: 2em;
-}
-
-.home-page .hero-info h1,
-.home-page .hero-info .description {
+/* THEME OVERRIDES */
+.home-page .vp-hero-info h1,
+.home-page .vp-hero-info .vp-description {
   color: var(--white);
 }
 
-html[data-theme=dark] .home-page .hero-info h1,
-html[data-theme=dark] .home-page .hero-info .description,
-html[data-theme=dark] .action-button.primary,
-html[data-theme=dark] .action-button.secondary {
+html[data-theme='dark'] body,
+html[data-theme='dark'] .navbar .nav-item > .nav-link,
+html[data-theme='dark'] .dropdown-wrapper .dropdown-title,
+html[data-theme='dark'] .navbar .nav-link,
+html[data-theme='dark'] .navbar .site-name {
   color: var(--black);
 }
 
-.buy-quinoa-call-to-action {
-  display: flex;
-  justify-content: center;
-  font-size: 2rem;
-}
-.buy-quinoa-call-to-action a {
-  background-color: var(--theme-color);
-  color: var(--white);
-  border-radius: 20em;
-  padding: 0 1em;
+html[data-theme='dark'] .navbar .nav-link.active {
+  color: var(--theme-color);
 }
 
-.buy-quinoa-call-to-action a:hover,
-.buy-quinoa-call-to-action a:focus {
-  border: 1px solid var(--black);
+html[data-theme='dark'] .home-page .hero-info h1,
+html[data-theme='dark'] .home-page .hero-info .description,
+html[data-theme='dark'] .action-button.primary,
+html[data-theme='dark'] .action-button.secondary {
+  color: var(--black);
 }
 
-.home-page .hero-info-wrapper img,
-.hero-image {
+.home-page .vp-hero-info-wrapper img,
+.vp-hero-image {
   border-radius: 20em;
 }
-/* LAYOUT */
-@media (max-width: 50em) {
-  // figure {
-  //   margin: 0;
-  // }  
-}
-.home-page .project {
-     background: url("/images/poignee-de-quinoa-dans-une-main-2-overlay.jpg") center/cover no-repeat;
-}
-// .home-page header,
-// .home-page .hero-info,
-// .home-page .home.project .hero .description {
-//   color: white
-// }
-.home.project {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+.home-page .vp-hero-info-wrapper {
+  background: url('/images/poignee-de-quinoa-dans-une-main-2-overlay.jpg')
+    center/cover no-repeat;
 }
 
-.theme-hope-content .author-image { 
+.vp-hero-image {
   display: flex;
   justify-content: center;
 }
-.theme-hope-content .author-image img {
+.vp-hero-image img {
   width: 10vw;
-}
-
-.blog-info-list .category-wrapper .category-list-wrapper,
-.blog-info-list .tag-wrapper .tag-list-wrapper {
-    max-height: 30em;
-    overflow-y: scroll;
 }
 
 .custom-page .page-info,
@@ -161,15 +104,15 @@ html[data-theme=dark] .action-button.secondary {
   color: initial;
 }
 
-html[data-theme=dark] .tab-item {
+html[data-theme='dark'] .tab-item {
   background: var(--bg-color);
 }
 
-html[data-theme=dark] #app .tab-list-nav button.active {
+html[data-theme='dark'] #app .tab-list-nav button.active {
   color: var(--white);
 }
 
-html[data-theme=dark] #app .tab-list-nav-item:hover {
+html[data-theme='dark'] #app .tab-list-nav-item:hover {
   color: var(--black);
 }
 
@@ -181,16 +124,15 @@ iframe.contact-form {
   height: 50em;
 }
 .newsletter-wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 iframe.newsletter-embed {
-    width: 100%;
-    height: 16em;
-    border-radius: 8px;
+  width: 100%;
+  height: 16em;
+  border-radius: 8px;
 }
-
 
 @media (min-width: 50em) {
   // iframe.newsletter-embed {
@@ -203,7 +145,7 @@ iframe.newsletter-embed html {
 }
 
 .theme-container.has-toc .page {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .image-cropped-wrapper {
@@ -214,9 +156,8 @@ iframe.newsletter-embed html {
   width: 100%;
 }
 
-
 .article-wrapper figcaption {
-  display:  none;
+  display: none;
 }
 
 .article-wrapper figure {
@@ -236,37 +177,22 @@ iframe.newsletter-embed html {
   width: 12.5em;
 }
 
-.participate .action-button {
-  display: inline-block;
-  overflow: hidden;
-  margin: 0;
-  padding: 0.75rem 1.5rem;
-  border: 2px solid var(--theme-color);
-  border-radius: 0.5rem;
-  color: var(--theme-color);
-  font-size: 1.2rem;
-  transition: color var(--color-transition), color var(--color-transition);
-}
-
-.participate .action-button.primary {
-  background: var(--theme-color);
-  color: var(--white);
-}
-
-.participate .participate-options {
+.buy-quinoa-call-to-action {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.buy-quinoa-call-to-action a {
   text-align: center;
-  justify-content: space-around;
+  background-color: var(--theme-color);
+  color: var(--white);
+  border-radius: 20em;
+  padding: 0 1em;
 }
 
-@media (min-width: 30em) {
-  .participate .participate-options {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-.participate article {
-  margin-bottom: 1em;
+.buy-quinoa-call-to-action a:hover,
+.buy-quinoa-call-to-action a:focus {
+  border: 1px solid var(--black);
 }
