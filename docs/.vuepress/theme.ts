@@ -8,7 +8,7 @@ export default hopeTheme({
   //path.resolve(__dirname, './theme'),
   hostname: 'https://www.inflorescences-quinoa.fr',
   author: {
-    name: 'Camille Vasset',
+    name: 'Camille Lambert',
     url: 'https://www.inflorescences-quinoa.fr',
   },
   // repo: 'InflorescensesQuinoa/siteweb',
@@ -28,7 +28,7 @@ export default hopeTheme({
       sidebar: false,
     },
   },
-  toc: false,
+  toc: true,
   displayFooter: true,
   footer:
     'GPLv3 Licensed | <a href="https://inflorescences-quinoa.netlify.app/page/mentions-legales" title="Lire les mentions légales">Mentions légales</a>',
