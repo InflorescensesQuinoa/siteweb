@@ -8,7 +8,7 @@ export default hopeTheme({
   //path.resolve(__dirname, './theme'),
   hostname: 'https://www.inflorescences-quinoa.fr',
   author: {
-    name: 'Camille Vasset',
+    name: 'Camille Lambert',
     url: 'https://www.inflorescences-quinoa.fr',
   },
   // repo: 'InflorescensesQuinoa/siteweb',
