@@ -1,4 +1,4 @@
-# Site web de Camille Lambert et son activité de production de Quinoa
+# Site web de Camille Vasset et son activité de production de Quinoa
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/34335ba7-d529-423e-8140-41eb18f5fbfd/deploy-status)](https://app.netlify.com/sites/inflorescences-quinoa/deploys)
 
