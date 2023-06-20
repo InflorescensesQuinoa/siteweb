@@ -1,17 +1,16 @@
 ---
-containerClass: custom-page no-toc
-title: 'Contactez-nous'
-description: "Vous avez une question sur notre méthode ? Vous avez un besoin spécifique pour une commande ? C'est ici qu'on vous répond !"
-#date:
+title: Contactez-nous !
+description: Vous avez une question sur notre méthode ? Vous avez un besoin
+  spécifique pour une commande ? C'est ici qu'on vous répond !
+heroImage: docs/.vuepress/dist/poignee-de-quinoa-dans-une-main.jpg
+heroAlt: Du quinoa dans une main.
+date: 2023-06-20T10:56:21.897Z
 head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://inflorescences-quinoa.netlify.app/page/contactez-nous/,
-      },
-    ]
+  - - meta
+    - rel: canonical
+      href: https://inflorescences-quinoa.netlify.app/page/contactez-nous/
 article: false
+containerClass: custom-page no-toc
 ---
 
 Vous avez une question sur notre méthode ?
