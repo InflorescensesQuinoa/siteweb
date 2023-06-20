@@ -28,7 +28,7 @@ export default hopeTheme({
       sidebar: false,
     },
   },
-  toc: false,
+  toc: true,
   displayFooter: true,
   footer:
     'GPLv3 Licensed | <a href="https://inflorescences-quinoa.netlify.app/page/mentions-legales" title="Lire les mentions légales">Mentions légales</a>',

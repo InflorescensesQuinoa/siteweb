@@ -26,6 +26,8 @@ article: false
 ![Inflorescences de quinoa mature](/images/inflorescences-de-quinoa-a-maturite.jpg)
 :::
 
+[Je commande mon quinoa](../commande-de-quinoa/README.md) {.buy-quinoa-call-to-action}
+
 Cultivé depuis plus de 7000 ans dans les Andes, le quinoa est reconnu pour ses qualités nutritionnelles exceptionnelles.
 
 Riche en protéines et en acides aminés essentiels, il est dépourvu de gluten.
@@ -43,13 +45,35 @@ Il est cultivé **sans intrants**, en Normandie.
 
 Nous vous le proposons :
 
-- en échantillon pour 1 ou 2 personnes
-<!-- - entre **x euros** et **x euros**, -->
-- en paire de 2 sachets kraft de 350g avec zip refermable pour 9 euros,
-- en sacs de 3 à 6 kg
-<!-- - entre **x euros** et **x euros** -->
+### En sachet de 350g
 
-<!-- [Je commande mon quinoa 🍚](../commande-de-quinoa/README.md) {.buy-quinoa-call-to-action} -->
+| Nombre commandé | Prix | Frais de port | Coût total €/kg |
+| --------------- | ---- | ------------- | --------------- |
+| 2 sachets       | 10 € | + 4,90 €      | 21,29 €         |
+| 5 sachets       | 23 € | + 6,50 €      | 16,86 €         |
+| 10 sachets      | 43 € | + 6,90 €      | 14,26 €         |
+
+[Je commande mon quinoa](../commande-de-quinoa/README.md) {.buy-quinoa-call-to-action}
+
+### En sac de 3kg
+
+| Nombre commandé | Prix  | Frais de port | Coût total €/kg |
+| --------------- | ----- | ------------- | --------------- |
+| 1 sac (3kg)     | 36 €  | + 6,90 €      | 14,20 €         |
+| 2 sacs (6kg)    | 66 €  | + 12,90 €     | 13,15 €         |
+| 4 sacs (12kg)   | 120 € | + 19,90 €     | 11,66 €         |
+
+[Je commande mon quinoa](../commande-de-quinoa/README.md) {.buy-quinoa-call-to-action}
+
+### En sac de 6kg
+
+| Nombre commandé | Prix  | Frais de port | Coût total €/kg |
+| --------------- | ----- | ------------- | --------------- |
+| 1 sac (6kg)     | 67 €  | + 12,90 €     | 13,35 €         |
+| 2 sacs (12kg)   | 120 € | + 19,90 €     | 11,66 €         |
+| 4 sacs (24kg)   | 216 € | + 28,90 €     | 10,20 €         |
+
+[Je commande mon quinoa](../commande-de-quinoa/README.md) {.buy-quinoa-call-to-action}
 
 <!-- ![Sachet kraft Inflorescence](/images/sachet-kraft-inflorescence.jpg) {.product-image-50vw} -->
 <!-- ![Une poignée de quinoa dans une main](/images/poignee-de-quinoa-dans-une-main-2.jpg) -->

@@ -91,6 +91,13 @@ html[data-theme='dark'] .action-button.secondary {
   display: none;
 }
 
+.theme-container.no-sidebar.no-toc .vp-page {
+  padding-inline-end: initial
+}
+.no-toc .toc-place-holder {
+  display: none;
+}
+
 .tab-list-nav {
   background-color: var(--theme-color);
 }
@@ -121,51 +128,15 @@ html[data-theme='dark'] #app .tab-list-nav-item:hover {
 }
 
 iframe.contact-form {
-  height: 50em;
-}
-.newsletter-wrapper {
-  display: flex;
-  justify-content: center;
+  height: 75em;
 }
 
-iframe.newsletter-embed {
-  width: 100%;
-  height: 16em;
-  border-radius: 8px;
-}
-
-@media (min-width: 50em) {
-  // iframe.newsletter-embed {
-  //   width: 90%;
-  // }
-}
-
-iframe.newsletter-embed html {
-  background-color: var(--color_theme_accent);
+iframe.order-form {
+  height: 100em;
 }
 
 .theme-container.has-toc .page {
   padding-right: 0;
-}
-
-.image-cropped-wrapper {
-  overflow: hidden;
-}
-.image-cropped-wrapper img,
-.theme-hope-content img {
-  width: 100%;
-}
-
-.article-wrapper figcaption {
-  display: none;
-}
-
-.article-wrapper figure {
-  margin: 0;
-}
-
-.article-wrapper img {
-  width: 100%;
 }
 
 .product-image-50vw {

@@ -12,7 +12,7 @@ article: false
 containerClass: custom-page
 ---
 
-## Notre histoire et nos valeurs
+## Notre histoire
 
 ![Camille Vasset dans son champ de quinoa](/images/camille-vasset-dans-le-champs-de-quinoa-mature-2.jpg)
 
@@ -24,6 +24,8 @@ lance dans la culture du quinoa avec mon père.
 Nous en avons implanté 1,5 ha, soit une production de 1500 à 2000 kg par récolte.
 
 ![Le champ de quinoa au printemps](/images/champs-de-quinoa.jpg)
+
+## Nos valeurs
 
 Soucieux de proposer une alimentation de qualité aux consommateurs, nous cultivons dans une démarche d’agroécologie :
 protection des sols, de la ressource en eau et de la biodiversité.
