@@ -1,0 +1,43 @@
+/* CUSTOM STYLES */
+
+iframe.contact-form {
+  height: 75em;
+}
+
+iframe.order-form {
+  height: 100em;
+}
+
+.theme-container.has-toc .page {
+  padding-right: 0;
+}
+
+.product-image-50vw {
+  display: flex;
+  justify-items: center;
+}
+
+.product-image-50vw img {
+  width: 12.5em;
+}
+
+.buy-quinoa-call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.buy-quinoa-call-to-action a {
+  text-align: center;
+  background-color: var(--theme-color);
+  color: var(--white);
+  border-radius: 20em;
+  padding: 0 1em;
+}
+
+.buy-quinoa-call-to-action a:hover,
+.buy-quinoa-call-to-action a:focus {
+  border: 1px solid var(--black);
+}
+/* END - CUSTOM STYLES */

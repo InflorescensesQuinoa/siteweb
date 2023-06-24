@@ -1,0 +1,72 @@
+/* THEME OVERRIDES */
+.home-page .vp-hero-info h1,
+.home-page .vp-hero-info .vp-description {
+  color: var(--white);
+}
+
+.home-page .vp-hero-info-wrapper img,
+.vp-hero-image {
+  border-radius: 20em;
+}
+
+.home-page .vp-hero-info-wrapper {
+  background: url('/images/poignee-de-quinoa-dans-une-main-2-overlay.jpg')
+    center/cover no-repeat;
+}
+
+.vp-hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+.vp-hero-image img {
+  width: 10vw;
+}
+
+/*remove second level of breadcrumb*/
+.vp-breadcrumb ol li:nth-child(2) {
+  display: none;
+}
+
+.custom-page .page-info,
+.custom-page .page-meta {
+  display: none;
+}
+
+.theme-container.no-sidebar.no-toc .vp-page {
+  padding-inline-end: initial;
+}
+
+.no-toc .toc-place-holder {
+  display: none;
+}
+
+.tab-list-nav {
+  background-color: var(--theme-color);
+}
+
+.tab-list-nav button {
+  color: var(--white);
+}
+
+.tab-list-nav button.active,
+.tab-list-nav-item:hover {
+  color: initial;
+}
+
+html[data-theme='dark'] .tab-item {
+  background: var(--bg-color);
+}
+
+html[data-theme='dark'] #app .tab-list-nav button.active {
+  color: var(--white);
+}
+
+html[data-theme='dark'] #app .tab-list-nav-item:hover {
+  color: var(--black);
+}
+
+#tab-3-0 > figure > img {
+  width: 50%;
+}
+/* END - THEME OVERRIDES */

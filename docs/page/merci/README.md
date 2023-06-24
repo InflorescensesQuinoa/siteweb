@@ -22,6 +22,6 @@ Elle va être préparée dans les plus brefs délais.
 
 Si vous avez choisi une livraison chez vous, nous vous communiquerons par e-mail la facture et le numéro de suivi du colis.
 
-Autrement, nous vous préviendrons dès qu'elle est disponible.
+Autrement, nous vous préviendrons dès qu'elle est disponible en vous donnant notre adresse pour venir récupérer la commande.
 
 [Revenir à l'accueil](../../README.md)

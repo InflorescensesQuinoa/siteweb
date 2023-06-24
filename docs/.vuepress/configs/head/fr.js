@@ -72,6 +72,9 @@ export const frHeadConfig = {
         href: '/icons/apple-touch-icon.png',
       },
     ],
+    ['link', { rel: 'stylesheet', href: '/styles/typography-overrides.css' }],
+    ['link', { rel: 'stylesheet', href: '/styles/theme-overrides.css' }],
+    ['link', { rel: 'stylesheet', href: '/styles/custom-styles.css' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
   ],
 };

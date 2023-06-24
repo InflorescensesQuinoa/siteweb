@@ -1,0 +1,46 @@
+/* TYPOGRAPHY OVERRIDES */
+h1,
+.page-title h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media (min-width: 50em) {
+
+    h1,
+    .page-title h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+img {
+    border-radius: 8px;
+}
+
+figcaption {
+    font-style: italic;
+}
+/* END - TYPOGRAPHY OVERRIDES */

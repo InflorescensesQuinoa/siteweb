@@ -18,6 +18,7 @@ head:
 article: false
 containerClass: custom-page
 ---
+
 ## Notre histoire
 
 ![Camille Vasset dans son champ de quinoa](/images/camille-lambert-dans-le-champs-de-quinoa-mature-2.jpg)
@@ -29,6 +30,8 @@ lance dans la culture du quinoa avec mon père.
 
 Nous en avons implanté 1,5 ha, soit une production de 1500 à 2000 kg par récolte.
 
+[Découvrez notre quinoa](../le-quinoa//README.md) {.buy-quinoa-call-to-action}
+
 ![Le champ de quinoa au printemps](/images/champs-de-quinoa.jpg)
 
 ## Nos valeurs
@@ -36,10 +39,10 @@ Nous en avons implanté 1,5 ha, soit une production de 1500 à 2000 kg par réco
 Soucieux de proposer une alimentation de qualité aux consommateurs, nous cultivons dans une démarche d’agroécologie :
 protection des sols, de la ressource en eau et de la biodiversité.
 
-C’est ainsi que nous sommes certifiés "[exploitation à Haute Valeur Environnementale](https://agriculture.gouv.fr/tout-savoir-sur-la-haute-valeur-environnementale-hve#:~:text=La%20Haute%20Valeur%20Environnementale%20(HVE)%20correspond%20au%2C%203e%20niveau,a%20connu%20un%20d%C3%A9veloppement%20constant.)" (HVE), à partir de la récolte 2023.
+C’est ainsi que nous sommes certifiés "[exploitation à Haute Valeur Environnementale](<https://agriculture.gouv.fr/tout-savoir-sur-la-haute-valeur-environnementale-hve#:~:text=La%20Haute%20Valeur%20Environnementale%20(HVE)%20correspond%20au%2C%203e%20niveau,a%20connu%20un%20d%C3%A9veloppement%20constant.>)" (HVE), à partir de la récolte 2023.
 
 ![Logo "HVE"](/images/hve-logo.png)
 
-[Découvrez notre quinoa 🍚](../le-quinoa//README.md) {.buy-quinoa-call-to-action}
+[Découvrez notre quinoa](../le-quinoa//README.md) {.buy-quinoa-call-to-action}
 
 ![Récolte du quinoa par une moissonneuse-batteuse](/images/recolte-du-quinoa-par-une-moissoneuse-batteuse.jpg)
