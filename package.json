@@ -1,6 +1,6 @@
 {
   "name": "inflorescences-quinoa",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Site web d'Inflorescense, producteur de Quinoa en Normandie",
   "main": "index.js",
   "repository": "https://github.com/InflorescensesQuinoa/siteweb",
