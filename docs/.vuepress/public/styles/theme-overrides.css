@@ -1,7 +1,12 @@
 /* THEME OVERRIDES */
 .home-page .vp-hero-info h1,
-.home-page .vp-hero-info .vp-description {
+.home-page .vp-hero-info .vp-description,
+#main-description {
   color: var(--white);
+}
+
+#main-description {
+  color: white;
 }
 
 .home-page .vp-hero-info-wrapper img,
@@ -10,7 +15,7 @@
 }
 
 .home-page .vp-hero-info-wrapper {
-  background: url('/images/poignee-de-quinoa-dans-une-main-2-overlay.jpg')
+  background: url("/images/poignee-de-quinoa-dans-une-main-2-overlay.jpg")
     center/cover no-repeat;
 }
 
@@ -54,15 +59,15 @@
   color: initial;
 }
 
-html[data-theme='dark'] .tab-item {
+html[data-theme="dark"] .tab-item {
   background: var(--bg-color);
 }
 
-html[data-theme='dark'] #app .tab-list-nav button.active {
+html[data-theme="dark"] #app .tab-list-nav button.active {
   color: var(--white);
 }
 
-html[data-theme='dark'] #app .tab-list-nav-item:hover {
+html[data-theme="dark"] #app .tab-list-nav-item:hover {
   color: var(--black);
 }
 
