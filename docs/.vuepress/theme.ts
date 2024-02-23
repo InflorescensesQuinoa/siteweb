@@ -1,29 +1,29 @@
 //https://v2.vuepress.vuejs.org/reference/default-theme/extending.html
 
-import { hopeTheme } from 'vuepress-theme-hope';
+import { hopeTheme } from "vuepress-theme-hope";
 
-import { enNavBarConfig, frNavBarConfig } from './configs/navbar';
+import { enNavBarConfig, frNavBarConfig } from "./configs/navbar";
 
 export default hopeTheme({
   //path.resolve(__dirname, './theme'),
-  hostname: 'https://www.inflorescences-quinoa.fr',
+  hostname: "https://www.inflorescences-quinoa.fr",
   author: {
-    name: 'Camille Vasset',
-    url: 'https://www.inflorescences-quinoa.fr',
+    name: "Camille Vasset",
+    url: "https://www.inflorescences-quinoa.fr",
   },
   // repo: 'InflorescensesQuinoa/siteweb',
   // docsRepo: 'https://github.com/InflorescensesQuinoa/siteweb',
   // docsBranch: 'main',
-  docsDir: 'docs',
+  docsDir: "docs",
   // editLinkPattern: ':repo/edit/:branch/:path',
-  logo: '/icons/favicon-32x32.png',
+  logo: "/icons/favicon-32x32.png",
   // logoDark: '/icons/dark-favicon-32x32.png',
   locales: {
     // '/': {
     //   navbar: enNavBarConfig,
     //   sidebar: false,
     // },
-    '/': {
+    "/": {
       navbar: frNavBarConfig,
       sidebar: false,
     },
@@ -32,7 +32,7 @@ export default hopeTheme({
   displayFooter: true,
   footer:
     'GPLv3 Licensed | <a href="https://inflorescences-quinoa.netlify.app/page/mentions-legales" title="Lire les mentions légales">Mentions légales</a>',
-  darkmode: 'disable',
+  darkmode: "disable",
   plugins: {
     // blog: true,
     // comment: {
@@ -44,7 +44,7 @@ export default hopeTheme({
     //   mapping: 'title',
     // },
     mdEnhance: {
-      linkCheck: 'always',
+      // linkCheck: 'always',
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/align.html
       align: true,
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/attrs.html
