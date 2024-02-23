@@ -6,7 +6,7 @@
 }
 
 #main-description {
-  color: white;
+  color: white !important;
 }
 
 .home-page .vp-hero-info-wrapper img,
